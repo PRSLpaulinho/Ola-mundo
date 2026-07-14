@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olá, Mundo!</title>
+    <link rel="stylesheet" href="site.css">
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
-    <p>Bem vindo ao site de teste. Este é um exemplo simples de página HTML.</p>
+    <div class="page">
+        <header class="hero">
+            <nav class="nav">
+                <h1>Olá, Mundo!</h1>
+                <a class="nav-link" href="#sobre">Sobre</a>
+            </nav>
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">Site de teste feito para estudar</p>
+                    <h1>Seja bem vindo a este site, foco no estudos! </h1>
+                    <p>Este exemplo foi criado para demonstrar um design moderno e responsivo.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#sobre">Saiba mais</a>
+                        <a class="btn btn-secondary" href="#servicos">Ver serviços</a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <h2>Por que fazer isso?</h2>
+                    <ul>
+                        <li>Primeira vez utilizando o Git/Github</li>
+                        <li>Fazer alguns testes de compatibilidade com o Visual Studio Code</li>
+                        <li>Ver se ainda sei mexer com o HTML e o CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="servicos" class="cards">
+                <article class="card">
+                    <h3>Identidade visual</h3>
+                    <p>Tentei fazer um site com cara de moderno, com um design limpo e profissional. As cores utilizadas foram do Github e do Visual Studio Code.</p>
+                </article>
+                <article class="card">
+                    <h3>Interface intuitiva</h3>
+                    <p>Estrutura simples e agradável para guiar o visitante com facilidade (até porque não tem nada pra fazer).</p>
+                </article>
+                <article class="card">
+                    <h3>Experiência completa</h3>
+                    <p>Uma navegação fluida em qualquer dispositivo, do celular ao desktop.</p>
+                </article>
+            </section>
+
+            <section id="sobre" class="about">
+                <h2>Um site criado com propósito</h2>
+                <p>Este site foi criado com o objetivo de demonstrar um design moderno e responsivo, proporcionando uma excelente experiência ao usuário.</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
